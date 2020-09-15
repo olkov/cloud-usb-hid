@@ -1,0 +1,13 @@
+server:
+  port: 8080
+logging:
+  level:
+    pc: DEBUG
+mqtt:
+  client:
+    config:
+      server-uri: tcp://34.89.136.226:1883
+      user-name: iot
+      password: 12344321
+      client-id: rabbit-mq-connector-app
+      default-topic: io-commands-topic
